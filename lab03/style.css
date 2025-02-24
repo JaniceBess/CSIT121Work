@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(244, 169, 244);
+    color:purple
+  }
+
+  .center {
+    text-align: center;
+    color: red;
+    font: Georgia;
+  }
+
+  ol{
+  
+background-color:pink;
+padding: 25px;
+border: 5px solid purple;
+  }
+
+  #series {
+    color:blue;
+  }
+ 
+  a:link{
+color:red
+  }
+
+  a:visited{
+color: pink
+  }
+
+  a:hover{
+ color: blue;
+font-weight:bold;
+  }
+
