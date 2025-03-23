@@ -77,7 +77,7 @@ color: green
 font-weight:bold;
   }
   
- /*@media only screen and (max-width: 800px) { 
+ @media only screen and (max-width: 800px) { 
    .lab {
     flex-direction: column;
     .lab {
@@ -115,4 +115,4 @@ font-weight:bold;
     flex: 1
        }
    }
- }*/
+ }
