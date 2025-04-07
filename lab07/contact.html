@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tables and Forms_Form</title>
+    <link href="lab07.css" rel="stylesheet" type="text/css">
+   <style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#form">Form</a></li>
+  <li><a href="tierlist.html">Home</a></li>
+  </ul>
+
+
+    <form action="./submit_page" method="get">
+        <h2>Islands of the Caribbean</h2>
+        <p> 
+            Which one of the islands in the Caribbean would you like to visit?
+        </p>
+        <p>
+            Please complete this form and make your selections
+        </p>
+        <p>
+          <label for="name">Name (required):</label>
+          <input type="text" name="name" id="name" required>
+        </p>
+        <p>
+          <label for="email">Email (required):</label>
+          <input type="email" name="email" id="email" required>
+        </p>
+</form>
+        <p>
+            Why do you want to go to the Caribbean?
+        </p>
+<form>
+    <textarea name="reason" maxlength="1800" rows="10" cols="30"></textarea>
+</form>
+    <p>How would you like to travel?</p>
+<form>
+    <input type="radio" id="plane" name="travel_method" value="By Plane">
+    <label for="plane">By Plane</label><br>
+    <input type="radio" id="cruise" name="travel_method" value="By Curise">
+    <label for="cruise">By Cruise</label><br>
+</form> 
+<p>
+    Which islands would you like to visit?
+</p>
+<form action="/action_page.php">
+    <label for="islands">Choose all that apply (hold down the Ctrl key to select multiple options):</label>
+ <select id="islands" name="islands" size="3" multiple>
+      <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+      <option value="Martinique">Martinique</option>
+      <option value="St. Croix">St. Croix</option>
+      <option value="St. John">St. John</option>
+      <option value="St. Thomas">St. Thomas</option>
+      <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+ </select>
+ </form>
+    <p>
+     Thank you for your participation!
+    </p>
+<br>  
+<form>
+          <button>Submit</button>
+
+      </form>
