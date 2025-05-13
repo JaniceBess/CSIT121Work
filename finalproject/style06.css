@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color:red
+ }
+
+ a:link{
+    color:black;
+      }
+    
+      a:visited{
+    color: white;
+      }
+    
+      a:hover{
+     color: white;
+    font-weight:bold;
+      }
+
+     h2{  
+        background-color:rgb(240, 240, 94);
+        border: 5px solid white;
+         }
